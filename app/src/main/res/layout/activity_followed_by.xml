@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".FollowedByActivity">
+   <ImageView
+       android:id="@+id/userImageImgView"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/no_image_found"
+       android:fitsSystemWindows="true"/>
+    <TextView
+        android:id="@+id/nameTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/publishedAtTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="#595656"
+        android:textSize="14sp"
+        android:layout_marginStart="10dp"
+       />
+    <TextView
+        android:id="@+id/commentTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+</LinearLayout>
