@@ -15,15 +15,13 @@
             android:id="@+id/recyclerView"
             android:layout_margin="5dp"/>
     </LinearLayout>
-<FrameLayout
-    android:id="@+id/addCamraImage"
-    android:layout_marginEnd="20dp"
-    android:layout_marginBottom="20dp"
-    android:layout_alignParentEnd="true"
-    android:layout_alignParentBottom="true"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/clickPhoto"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="50dp"
@@ -31,7 +29,7 @@
         android:elevation="0dp"
         android:src="@drawable/ic_baseline_add_24"
         android:layout_gravity="center"/>
-</FrameLayout>
+
 
 
 
