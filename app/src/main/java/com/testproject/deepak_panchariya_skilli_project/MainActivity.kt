@@ -104,23 +104,7 @@ class MainActivity : AppCompatActivity() {
                         Log.e("values",imageArrayList.toString())
 
 
-//                        val comment = response.body()?.get("comment")?.asString.toString()
-//                        val picture = response.body()?.get("picture")?.asString.toString()
-//                        val id = response.body()?.get("_id")?.asString.toString()
-//                        val title = response.body()?.get("title")?.asString.toString()
-//                        val publishedAt = response.body()?.get("publishedAt")?.asString.toString()
-//
-//
-//
-//
-//                        imageArrayList.add(
-//                            DiscriptionList(
-//                                comment, picture, id, publishedAt, title
-//                            )
-//                        )
-//
-//
-//
+
                     adaptercalling = RecyclerAdaptor(
                         applicationContext,
                         imageArrayList
@@ -167,13 +151,6 @@ class MainActivity : AppCompatActivity() {
                 DiscriptionList("User image added from camera",imagePath.toString(),"124578",Date(System.currentTimeMillis()).toString(),"Camera Added")
             )
             adaptercalling.notifyDataSetChanged()
-//            val adaptercalling = RecyclerAdaptor(
-//                applicationContext,
-//                imageArrayList
-//            )
-//            recyclerView.setHasFixedSize(true)
-//            adaptercalling.notifyDataSetChanged()
-//            recyclerView.adapter = adaptercalling
 
 
 
